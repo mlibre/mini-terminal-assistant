@@ -81,6 +81,11 @@ void async function main ()
 	{
 		handleToolCalls( response.message.tool_calls, messages );
 	}
+	else
+	{
+		console.log( response.message.content );
+		return
+	}
 
 	// Second API call: Get second response from the model
 	const response2 = await ollama.chat({
@@ -100,6 +105,11 @@ void async function main ()
 	if ( response3.message.tool_calls && response3.message.tool_calls.length > 0 )
 	{
 		handleToolCalls( response3.message.tool_calls, messages );
+	}
+	else
+	{
+		console.log( response.message.content );
+		return
 	}
 
 	const response4 = await ollama.chat({
