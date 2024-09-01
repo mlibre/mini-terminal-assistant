@@ -2,12 +2,24 @@
 
 Terminal assistant.
 
+## General AI concepts
+
 * <https://www.coursera.org/learn/ai-for-everyone>
 * <https://www.coursera.org/learn/generative-ai-for-everyone>
+* <https://www.coursera.org/learn/uol-machine-learning-for-all>
+* <https://www.coursera.org/learn/machine-learning-introduction-for-everyone>
+* <https://www.coursera.org/learn/machine-learning-duke>
+<https://www.coursera.org/learn/machine-learning-duke/lecture/LOogv/how-do-we-evaluate-our-networks>
 
-<https://www.coursera.org/learn/uol-machine-learning-for-all>
-<https://www.coursera.org/learn/machine-learning-introduction-for-everyone>
-<https://www.coursera.org/learn/machine-learning-duke>
+## Math
+
+* <https://www.coursera.org/learn/datasciencemathskills>
+
+## Tools
+
+* <https://www.coursera.org/projects/multi-ai-agent-systems-with-crewai>
+
+<https://www.coursera.org/learn/data-science-k-means-clustering-python>?
 <https://www.coursera.org/learn/introduction-to-machine-learning-in-production>
 
 * <https://www.coursera.org/professional-certificates/applied-artifical-intelligence-ibm-watson-ai>
@@ -29,3 +41,4 @@ Terminal assistant.
 <https://lms.onacademy24.com/login/index.php>
 <https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ>
 <https://udlbook.github.io/udlbook/>
+<https://quera.org/college/landpage/8522/machine-learning-Introduction>
