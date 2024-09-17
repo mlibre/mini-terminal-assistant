@@ -42,3 +42,4 @@ Terminal assistant.
 <https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ>
 <https://udlbook.github.io/udlbook/>
 <https://quera.org/college/landpage/8522/machine-learning-Introduction>
+https://atcold.github.io/NYU-DLSP21/
