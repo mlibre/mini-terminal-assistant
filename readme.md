@@ -9,7 +9,6 @@ Terminal assistant.
 * <https://www.coursera.org/learn/uol-machine-learning-for-all>
 
 * <https://www.coursera.org/learn/machine-learning-duke>
-<https://www.coursera.org/learn/machine-learning-duke/lecture/C1lvY/example-of-reinforcement-learning-in-practice>
 
 <https://medium.com/@saschametzger/what-are-tokens-vectors-and-embeddings-how-do-you-create-them-e2a3e698e037>
 
