@@ -9,14 +9,13 @@ Terminal assistant.
 * <https://www.coursera.org/learn/uol-machine-learning-for-all>
 
 * <https://www.coursera.org/learn/machine-learning-duke>
-<https://www.coursera.org/learn/machine-learning-duke/lecture/0FycY/word-vectors-and-their-interpretation>
+<https://www.coursera.org/learn/machine-learning-duke/lecture/C1lvY/example-of-reinforcement-learning-in-practice>
 
 <https://medium.com/@saschametzger/what-are-tokens-vectors-and-embeddings-how-do-you-create-them-e2a3e698e037>
 
 * <https://www.coursera.org/learn/machine-learning/>
 <https://www.coursera.org/learn/machine-learning/lecture/s91wX/supervised-learning-part-1>
 
-<https://learning.anaconda.cloud/>
 <https://pll.harvard.edu/course/cs50s-introduction-artificial-intelligence-python>
 
 * <https://www.coursera.org/learn/machine-learning-introduction-for-everyone>
@@ -29,6 +28,11 @@ Terminal assistant.
 
 <https://m.youtube.com/watch?v=WZeZZ8_W-M4>
 <https://ocw.sharif.ir/courses>
+
+<https://www.coursera.org/learn/introduction-to-ai>
+<https://www.coursera.org/learn/machine-learning-with-python>
+<https://www.coursera.org/learn/advanced-deep-learning-with-pytorch>
+<https://www.coursera.org/learn/deep-neural-networks-with-pytorch>
 
 ## Math
 
