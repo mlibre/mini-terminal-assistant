@@ -1,14 +1,18 @@
-// eslint.config.cjs
-
+// eslint.config.js
+const globals = require( "globals" );
+const js = require( "@eslint/js" );
 module.exports = [
 	{
+		...js.configs.recommended,
 		languageOptions: {
-			parserOptions: {
-				ecmaVersion: 13,
-				impliedStrict: true,
-			}
+			globals: {
+				...globals.node
+			},
+			ecmaVersion: "latest",
+			sourceType: "commonjs"
 		},
 		rules: {
+			semi: ["error", "always"],
 			"no-trailing-spaces": "error",
 			"linebreak-style": ["error", "unix"],
 			"quotes": ["error", "double"],
@@ -33,6 +37,7 @@ module.exports = [
 			"function-paren-newline": "warn",
 			"arrow-body-style": ["error", "always"],
 			"no-template-curly-in-string": "error",
+			"prefer-const": ["error", { destructuring: "any", ignoreReadBeforeAssign: false }],
 			"no-new-object": "error",
 			"no-extra-parens": ["error", "all", { conditionalAssign: false }],
 			"no-empty-function": "error",
@@ -42,10 +47,12 @@ module.exports = [
 			"no-self-compare": "error",
 			"no-useless-call": "error",
 			"no-undefined": "error",
+			"no-undef": "warn",
 			"no-array-constructor": "error",
 			"prefer-destructuring": ["error",
 				{
-					VariableDeclarator: { array: false, object: true }, AssignmentExpression: { array: false, object: false } }, { enforceForRenamedProperties: false
+					VariableDeclarator: { array: true, object: true }, AssignmentExpression: { array: false, object: false } }, { enforceForRenamedProperties: false
+
 				}
 			],
 			"object-shorthand": "warn",

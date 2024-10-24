@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "eslint": "^9.9.0",
-    "ollama": "^0.5.8"
+    "eslint": "^9.13.0",
+    "ollama": "^0.5.9"
   }
 }
