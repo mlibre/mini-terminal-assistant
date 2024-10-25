@@ -47,8 +47,8 @@ def preprocess_commands(commands):
 # Step 3: Convert text to numerical features
 def encode_features(X, y):
     # Initialize OneHotEncoder
-    encoder_X = OneHotEncoder(sparse=False, handle_unknown='ignore')
-    encoder_y = OneHotEncoder(sparse=False, handle_unknown='ignore')
+    encoder_X = OneHotEncoder(sparse_output=False, handle_unknown='ignore')
+    encoder_y = OneHotEncoder(sparse_output=False, handle_unknown='ignore')
     
     # Reshape X to 2D array
     X_flat = np.array(X).reshape(-1, 1)
@@ -109,8 +109,16 @@ def main():
     # Train model
     model = train_model(X_train, y_train)
     
+    # Calculate training and test scores
+    train_score = model.score(X_train, y_train)
+    test_score = model.score(X_test, y_test)
+
+    print("Model Performance:")
+    print(f"Training R² score: {train_score:.4f}")
+    print(f"Testing R² score: {test_score:.4f}")
+
     # Example prediction
-    test_sequence = ['ls', '-la']
+    test_sequence = ['ls', '-h']
     predicted = predict_next_word(model, test_sequence, encoder_X, encoder_y)
     print(f"Input: {' '.join(test_sequence)}")
     print(f"Predicted next word: {predicted}")
