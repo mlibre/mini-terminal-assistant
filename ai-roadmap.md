@@ -26,6 +26,7 @@
 <https://www.coursera.org/learn/machine-learning-with-python>
 <https://www.coursera.org/learn/advanced-deep-learning-with-pytorch>
 <https://www.coursera.org/learn/deep-neural-networks-with-pytorch>
+<https://m.youtube.com/watch?v=0oyDqO8PjIg&t=5597s&pp=ygUOZnJlZSBjb2RlIGNhbXA%3D>
 
 # Math
 
