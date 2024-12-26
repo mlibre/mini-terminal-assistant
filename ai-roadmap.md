@@ -5,9 +5,7 @@
 * <https://www.coursera.org/learn/uol-machine-learning-for-all>
 * <https://www.coursera.org/learn/machine-learning-duke>
 * <https://medium.com/@saschametzger/what-are-tokens-vectors-and-embeddings-how-do-you-create-them-e2a3e698e037>
-
 * <https://www.coursera.org/learn/machine-learning/>
-<https://www.coursera.org/learn/machine-learning/lecture/FthLz/cost-function-intuition>
 
 <https://pll.harvard.edu/course/cs50s-introduction-artificial-intelligence-python>
 
